@@ -1,7 +1,7 @@
-Herosaver
+SaverSTL
 =========
 
-Save Configuration and STL of https://www.heroforge.com/
+Save Configuration and STL.
 
 Usage
 -----
@@ -29,7 +29,7 @@ Alternatively you can load the HeroSaver manually everytime you visit HeroForge.
   3. Paste the following
   
 ```
-var xhr=new XMLHttpRequest;xhr.open("get","https://raw.githubusercontent.com/dserhienko/stlsaver/master/herosaver.js",true);xhr.onreadystatechange=function(){if(xhr.readyState==4){var script=document.createElement("script");script.type="text/javascript";script.text=xhr.responseText;document.body.appendChild(script)}};xhr.send(null);
+var xhr=new XMLHttpRequest;xhr.open("get","https://raw.githubusercontent.com/SaiDAV/StlSaver/master/herosaver.js",true);xhr.onreadystatechange=function(){if(xhr.readyState==4){var script=document.createElement("script");script.type="text/javascript";script.text=xhr.responseText;document.body.appendChild(script)}};xhr.send(null);
 ```
 
 
